@@ -1,0 +1,129 @@
+Source: ignition-rendering4
+Standards-Version: 3.9.8
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: optional
+Build-Depends: cmake,
+               doxygen,
+               pkg-config,
+               debhelper (>= 9),
+               freeglut3-dev,
+               libglew-dev,
+               libfreeimage-dev,
+               libignition-cmake2-dev,
+               libignition-common3-events-dev,
+               libignition-common3-graphics-dev,
+               libignition-math6-dev,
+               libignition-plugin-dev,
+               libogre-1.9-dev,
+               libogre-2.1-dev
+Vcs-Browser: https://github.com/ignition-release/ign-rendering4-release
+Vcs-Git: https://github.com/ignition-release/ign-rendering4-release
+Homepage: http://ignitionrobotics.org/
+
+Package: libignition-rendering4
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition rendering3 classes and functions for robot apps - Shared library
+  Ignition rendering3 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Main shared library
+
+# Only for the examples:
+# 
+#        libfreeimage-dev,
+#        freeglut3-dev,
+#        libglew-dev,
+
+Package: libignition-rendering4-core-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-common3-events-dev,
+         libignition-common3-graphics-dev,
+         libignition-math6-dev,
+         libignition-rendering4 (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition rendering3 classes and functions - Core development files
+  Ignition rendering3 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Core development files
+
+Package: libignition-rendering4-ogre1-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-common3-events-dev,
+         libignition-common3-graphics-dev,
+         libignition-math6-dev,
+         libogre-1.9-dev,
+         libignition-rendering4-core-dev,
+         libignition-rendering4-ogre1 (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition rendering3 classes and functions for robot apps - Development files
+  Ignition rendering3 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Ogre1 component development files
+
+Package: libignition-rendering4-ogre1
+Architecture: any
+Section: libdevel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition rendering3 classes and functions for robot apps - Development files
+  Ignition rendering3 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Ogre1 component shared library
+
+Package: libignition-rendering4-ogre2-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-common3-events-dev,
+         libignition-common3-graphics-dev,
+         libignition-math6-dev,
+         libogre-2.1-dev,
+         libignition-rendering4-core-dev,
+         libignition-rendering4-ogre2 (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition rendering3 classes and functions for robot apps - Development files
+  Ignition rendering3 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Ogre2 component development files
+
+Package: libignition-rendering4-ogre2
+Architecture: any
+Section: libdevel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition rendering3 classes and functions for robot apps - Development files
+  Ignition rendering3 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Ogre2 component shared library
+
+Package: libignition-rendering4-dev
+Architecture: any
+Section: libdevel
+Depends: libignition-rendering4-core-dev,
+         libignition-rendering4-ogre1-dev,
+         libignition-rendering4-ogre2-dev,
+         libignition-rendering4 (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition rendering3 classes and functions for robot apps - Metapackage
+  Ignition rendering3 is a component in the ignition framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Metapackage for development files

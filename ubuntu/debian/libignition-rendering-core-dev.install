@@ -1,0 +1,8 @@
+usr/include/ignition/rendering[0-99]/ignition/rendering/*.hh
+usr/include/ignition/rendering[0-99]/ignition/rendering/base/*.hh
+usr/include/ignition/rendering[0-99]/ignition/rendering/detail/*.hh
+usr/include/ignition/rendering[0-99]/ignition/rendering.hh
+usr/lib/*/libignition-rendering[0-99].so
+usr/lib/*/pkgconfig/ignition-rendering[0-99].pc
+usr/lib/*/cmake/ignition-rendering[0-99]/ignition-rendering*
+usr/share/ignition/ignition-rendering[0-99]/ignition-rendering*.tag.xml
