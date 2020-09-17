@@ -1,3 +1,9 @@
+ignition-rendering4 (4.0.0~pre1-1~focal) focal; urgency=medium
+
+  * ignition-rendering4 4.0.0~pre1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Thu, 17 Sep 2020 16:53:54 -0700
+
 ignition-rendering4 (3.999.999-1~focal) focal; urgency=medium
 
   * Stub to be removed after first entry
