@@ -1,18 +1,6 @@
-ignition-rendering4 (4.0.0-1~buster) buster; urgency=medium
-
-  * ignition-rendering4 4.0.0-1 release
-
- -- Ian Chen <ichen@osrfoundation.org>  Tue, 29 Sep 2020 12:50:02 -0700
-
-ignition-rendering4 (4.0.0~pre1-1~buster) buster; urgency=medium
-
-  * ignition-rendering4 4.0.0~pre1-1 release
-
- -- Louise Poubel <louise@openrobotics.org>  Thu, 17 Sep 2020 16:53:54 -0700
-
-ignition-rendering4 (3.999.999-1~buster) buster; urgency=medium
+ignition-rendering5 (4.999.999-1~buster) buster; urgency=medium
 
   * Stub to be removed after first entry
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 16 Jul 2020 18:26:28 +0200
+ -- Louise Poubel <louise@openrobotics.org>  Wed, 07 Oct 2020 17:36:15 -0700
 
