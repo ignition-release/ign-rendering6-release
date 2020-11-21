@@ -3,4 +3,5 @@ usr/include/ignition/rendering[0-99]/ignition/rendering/ogre2.hh
 usr/lib/*/libignition-rendering[0-99]-ogre2.so
 usr/lib/*/pkgconfig/ignition-rendering[0-99]-ogre2.pc
 usr/lib/*/cmake/ignition-rendering[0-99]-ogre2/*
+usr/lib/*/ign-rendering-[0-99]/engine-plugins/libignition-rendering*-ogre2*.so
 usr/share/ignition/ignition-rendering[0-99]/ogre2/*

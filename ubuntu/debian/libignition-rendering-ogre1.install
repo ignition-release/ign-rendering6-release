@@ -1,1 +1,2 @@
 usr/lib/*/libignition-rendering[0-99]-ogre.so.*
+usr/lib/*/ign-rendering-[0-99]/engine-plugins/libignition-rendering*-ogre.so.*
