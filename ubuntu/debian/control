@@ -11,8 +11,8 @@ Build-Depends: cmake,
                libglew-dev,
                libfreeimage-dev,
                libignition-cmake2-dev,
-               libignition-common3-events-dev,
-               libignition-common3-graphics-dev,
+               libignition-common4-events-dev,
+               libignition-common4-graphics-dev,
                libignition-math6-dev (>= 6.6.0),
                libignition-plugin-dev,
                libogre-1.9-dev,
@@ -43,8 +43,8 @@ Package: libignition-rendering5-core-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-common3-events-dev,
-         libignition-common3-graphics-dev,
+         libignition-common4-events-dev,
+         libignition-common4-graphics-dev,
          libignition-math6-dev (>= 6.6.0),
          libignition-rendering5 (= ${binary:Version}),
          ${misc:Depends}
@@ -59,8 +59,8 @@ Package: libignition-rendering5-ogre1-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-common3-events-dev,
-         libignition-common3-graphics-dev,
+         libignition-common4-events-dev,
+         libignition-common4-graphics-dev,
          libignition-math6-dev (>= 6.6.0),
          libogre-1.9-dev,
          libignition-rendering5-core-dev,
@@ -88,8 +88,8 @@ Package: libignition-rendering5-ogre2-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-common3-events-dev,
-         libignition-common3-graphics-dev,
+         libignition-common4-events-dev,
+         libignition-common4-graphics-dev,
          libignition-math6-dev (>= 6.6.0),
          libogre-2.1-dev,
          libignition-rendering5-core-dev,
