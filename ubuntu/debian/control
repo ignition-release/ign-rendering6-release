@@ -10,7 +10,7 @@ Build-Depends: cmake,
                freeglut3-dev,
                libglew-dev,
                libfreeimage-dev,
-               libignition-cmake2-dev,
+               libignition-cmake2-dev (>= 2.3.0),
                libignition-common4-events-dev,
                libignition-common4-graphics-dev,
                libignition-math6-dev (>= 6.6.0),
@@ -42,7 +42,7 @@ Description: Ignition rendering3 classes and functions for robot apps - Shared l
 Package: libignition-rendering6-core-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-common4-events-dev,
          libignition-common4-graphics-dev,
          libignition-math6-dev (>= 6.6.0),
@@ -58,7 +58,7 @@ Description: Ignition rendering3 classes and functions - Core development files
 Package: libignition-rendering6-ogre1-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-common4-events-dev,
          libignition-common4-graphics-dev,
          libignition-math6-dev (>= 6.6.0),
@@ -87,7 +87,7 @@ Description: Ignition rendering3 classes and functions for robot apps - Developm
 Package: libignition-rendering6-ogre2-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
+Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-common4-events-dev,
          libignition-common4-graphics-dev,
          libignition-math6-dev (>= 6.6.0),
