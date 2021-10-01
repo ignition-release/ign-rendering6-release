@@ -17,6 +17,7 @@ endif
 	dh $@ --parallel
 
 override_dh_auto_configure:
+	echo "DEBUG: $(EXTRA_CMAKE_FLAGS) $(DEB_HOST_ARCH_CPU)"
 	dh_auto_configure -- \
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo $(EXTRA_CMAKE_FLAGS)
 
