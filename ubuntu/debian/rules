@@ -5,7 +5,7 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 DEB_HOST_ARCH_CPU ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_CPU)
 
 EXTRA_CMAKE_FLAGS =
-ifneq (,$(filter $(DEB_HOST_ARCH_CPU), arm64 armhf))
+ifneq (,$(filter $(DEB_HOST_ARCH_CPU), arm64 arm))
     EXTRA_CMAKE_FLAGS = -DIGN_ADD_fPIC_TO_LIBRARIES=True
 endif
 
