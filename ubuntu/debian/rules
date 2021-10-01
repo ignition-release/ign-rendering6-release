@@ -5,7 +5,7 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 DEB_HOST_ARCH_CPU ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_CPU)
 
 EXTRA_CMAKE_FLAGS =
-ifneq (,$(filter arm,$(DEB_HOST_ARCH_CPU)))
+ifneq (,$(filter $(DEB_HOST_ARCH_CPU), arm64 armhf))
     EXTRA_CMAKE_FLAGS = -DIGN_ADD_fPIC_TO_LIBRARIES=True
 endif
 
@@ -17,7 +17,6 @@ endif
 	dh $@ --parallel
 
 override_dh_auto_configure:
-	echo "DEBUG: $(EXTRA_CMAKE_FLAGS) $(DEB_HOST_ARCH_CPU)"
 	dh_auto_configure -- \
 	    -DCMAKE_BUILD_TYPE=RelWithDebInfo $(EXTRA_CMAKE_FLAGS)
 
