@@ -19,5 +19,44 @@ index a5e6a22c..6a380b1d 100644
      /// \def SceneStore
      /// \brief Store of Scene
      typedef Store<Scene> SceneStore;
+diff --git a/ogre/include/ignition/rendering/ogre/OgreStorage.hh b/ogre/include/ignition/rendering/ogre/OgreStorage.hh
+index b0468277..5435168b 100644
+--- a/ogre/include/ignition/rendering/ogre/OgreStorage.hh
++++ b/ogre/include/ignition/rendering/ogre/OgreStorage.hh
+@@ -34,15 +34,6 @@ namespace ignition
+   namespace rendering
+   {
+     inline namespace IGNITION_RENDERING_VERSION_NAMESPACE {
+-    //
+-    template class BaseSceneStore<OgreScene>;
+-    template class BaseNodeStore<OgreNode>;
+-    template class BaseLightStore<OgreLight>;
+-    template class BaseSensorStore<OgreSensor>;
+-    template class BaseVisualStore<OgreVisual>;
+-    template class BaseGeometryStore<OgreGeometry>;
+-    template class BaseSubMeshStore<OgreSubMesh>;
+-    template class BaseMaterialMap<OgreMaterial>;
+ 
+     typedef BaseSceneStore<OgreScene>       OgreSceneStore;
+     typedef BaseNodeStore<OgreNode>         OgreNodeStore;
+diff --git a/ogre2/include/ignition/rendering/ogre2/Ogre2Storage.hh b/ogre2/include/ignition/rendering/ogre2/Ogre2Storage.hh
+index 6a966198..f3ff9c6c 100644
+--- a/ogre2/include/ignition/rendering/ogre2/Ogre2Storage.hh
++++ b/ogre2/include/ignition/rendering/ogre2/Ogre2Storage.hh
+@@ -34,14 +34,6 @@ namespace ignition
+   namespace rendering
+   {
+     inline namespace IGNITION_RENDERING_VERSION_NAMESPACE {
+-    //
+-    template class BaseGeometryStore<Ogre2Geometry>;
+-    template class BaseLightStore<Ogre2Light>;
+-    template class BaseNodeStore<Ogre2Node>;
+-    template class BaseSceneStore<Ogre2Scene>;
+-    template class BaseSensorStore<Ogre2Sensor>;
+-    template class BaseSubMeshStore<Ogre2SubMesh>;
+-    template class BaseVisualStore<Ogre2Visual>;
+ 
+     typedef BaseGeometryStore<Ogre2Geometry>    Ogre2GeometryStore;
+     typedef BaseLightStore<Ogre2Light>          Ogre2LightStore;
 
 
