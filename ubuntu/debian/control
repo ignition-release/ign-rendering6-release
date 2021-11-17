@@ -66,7 +66,7 @@ Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-math6-dev (>= 6.6.0),
          libignition-math6-eigen3-dev (>= 6.6.0),
          libogre-1.9-dev,
-         libignition-rendering6-core-dev,
+         libignition-rendering6-core-dev (= ${binary:Version}),
          libignition-rendering6-ogre1 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -96,7 +96,7 @@ Depends: libignition-cmake2-dev (>= 2.3.0),
          libignition-math6-dev (>= 6.6.0),
          libignition-math6-eigen3-dev (>= 6.6.0),
          libogre-2.2-dev,
-         libignition-rendering6-core-dev,
+         libignition-rendering6-core-dev (= ${binary:Version}),
          libignition-rendering6-ogre2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
@@ -120,9 +120,9 @@ Description: Ignition rendering3 classes and functions for robot apps - Developm
 Package: libignition-rendering6-dev
 Architecture: any
 Section: libdevel
-Depends: libignition-rendering6-core-dev,
-         libignition-rendering6-ogre1-dev,
-         libignition-rendering6-ogre2-dev,
+Depends: libignition-rendering6-core-dev (= ${binary:Version}),
+         libignition-rendering6-ogre1-dev (= ${binary:Version}),
+         libignition-rendering6-ogre2-dev (= ${binary:Version}),
          libignition-rendering6 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
