@@ -1,4 +1,4 @@
-ignition-rendering6 (6.2.1-1~jammy) jammy; urgency=medium
+ignition-rendering6 (6.2.1+osrf-1~jammy) jammy; urgency=medium
 
   * First release for jammy
 
