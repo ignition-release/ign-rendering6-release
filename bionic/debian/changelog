@@ -1,3 +1,9 @@
+ignition-rendering6 (6.2.2~pre2-1~bionic) bionic; urgency=medium
+
+  * ignition-rendering6 6.2.2~pre2-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 29 Mar 2022 18:35:02 +0200
+
 ignition-rendering6 (6.2.2~pre1-1~bionic) bionic; urgency=medium
 
   * ignition-rendering6 6.2.2~pre1-1 release
