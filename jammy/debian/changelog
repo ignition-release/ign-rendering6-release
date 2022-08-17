@@ -1,3 +1,9 @@
+ignition-rendering6 (6.5.1-2~jammy) jammy; urgency=medium
+
+  * ignition-rendering6 6.5.1-2 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Tue, 16 Aug 2022 19:45:48 -0700
+
 ignition-rendering6 (6.5.1-1~jammy) jammy; urgency=medium
 
   * ignition-rendering6 6.5.1-1 release
