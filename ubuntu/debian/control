@@ -158,3 +158,59 @@ Description: Gazebo rendering classes and functions for robot apps - Metapackage
  designed to rapidly develop robot applications.
  .
  Metapackage for development files
+
+Package: libgz-rendering6
+Depends: libignition-rendering6, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering6-core-dev
+Depends: libignition-rendering6-core-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering6-ogre1-dev
+Depends: libignition-rendering6-ogre1-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering6-ogre1
+Depends: libignition-rendering6-ogre1, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering6-ogre2-dev
+Depends: libignition-rendering6-ogre2-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering6-ogre2
+Depends: libignition-rendering6-ogre2, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering6-dev
+Depends: libignition-rendering6-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
