@@ -1,1 +1,1 @@
-usr/lib/*/libignition-rendering[0-99].so.*
+usr/lib/*/lib*-rendering[0-99].so.*

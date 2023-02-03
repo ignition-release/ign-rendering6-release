@@ -1,7 +1,7 @@
-usr/include/ignition/rendering[0-99]/ignition/rendering/ogre/*
-usr/include/ignition/rendering[0-99]/ignition/rendering/ogre.hh
-usr/lib/*/libignition-rendering[0-99]-ogre.so
-usr/lib/*/pkgconfig/ignition-rendering[0-99]-ogre.pc
-usr/lib/*/cmake/ignition-rendering[0-99]-ogre/*
-usr/lib/*/ign-rendering-[0-99]/engine-plugins/libignition-rendering*-ogre.so
-usr/share/ignition/ignition-rendering[0-99]/ogre/*
+usr/include/*/rendering[0-99]/*/rendering/ogre/*
+usr/include/*/rendering[0-99]/*/rendering/ogre.hh
+usr/lib/*/lib*-rendering[0-99]-ogre.so
+usr/lib/*/pkgconfig/*-rendering[0-99]-ogre.pc
+usr/lib/*/cmake/*-rendering[0-99]-ogre/*
+usr/lib/*/ign-rendering-[0-99]/engine-plugins/lib*-rendering*-ogre.so
+usr/share/*/*-rendering[0-99]/ogre/*
