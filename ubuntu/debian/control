@@ -41,7 +41,6 @@ Description: Gazebo rendering classes and functions for robot apps - Shared libr
 # Only for the examples:
 #
 #        libfreeimage-dev,
-#        freeglut3-dev,
 #        libglew-dev,
 
 Package: libignition-rendering6-core-dev
@@ -53,6 +52,8 @@ Depends: libignition-cmake2-dev (>= 2.12.1),
          libignition-math6-dev (>= 6.6.0),
          libignition-math6-eigen3-dev (>= 6.6.0),
          libignition-plugin-dev,
+         libx11-dev,
+         freeglut3-dev,
          libignition-rendering6 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
